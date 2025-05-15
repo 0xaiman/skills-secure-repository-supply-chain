@@ -4,8 +4,10 @@
   "description": "provision to azure cloud",
   "main": "provisionComposer.js",
   "license": "MIT",
+  "keywords": ["azure", "cloud", "provision"],
   "scripts": {
-    "start": "node provisionComposer.js"
+    "start": "node provisionComposer.js",
+    "audit": "npm audit"
   },
   "dependencies": {
     "@azure/arm-appinsights": "^2.1.0",
@@ -13,12 +15,10 @@
     "@azure/arm-resources": "^2.1.0",
     "@azure/graph": "^5.0.1",
     "@azure/ms-rest-nodeauth": "^3.0.3",
-    "@types/fs-extra": "^8.1.0",
     "axios": "^0.21.1",
     "chalk": "^4.0.0",
     "fs-extra": "^8.1.0",
     "minimist": "^1.2.5",
-    "ora": "^4.0.4",
-    "request-promise": "^4.2.5"
+    "ora": "^4.0.4"
   }
 }
